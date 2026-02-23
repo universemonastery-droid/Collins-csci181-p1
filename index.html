@@ -3,20 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Home</title>
   </head>
-  
-  <body>
+
+  <body id="Home_Body">
     <!--Header/banner-->
     <header>
       <div id="Home_Header_Container">
-        <h1>Donation Warehouse</h1>
-        <div id="dw-logo"> 
-          <img  src="/Images/donation-warehouse-logo.png" title="Donation Warehouse Logo">
+        <div id="dw-logo">
+          <img
+            src="/Images/donation-warehouse-logo.png"
+            title="Donation Warehouse Logo"
+            alt="Donation Warehouse"
+          />
+          <h2>Used Furniture and Appliance Resale</h2>
+          <h2>Raising Money to fund child abuse pervention</h2>
         </div>
       </div>
-    
-  </header>
-    <h1>Placeholder</h1>
+    </header>
+    <nav id="Home_Nav">
+      <ul>
+        <li><a href ="index.html">Home</a></li>
+        <li><a href="appliances.html">Appliances!</a></li>
+        <li><a href="furniture.html">Furniture!</a></li>
+        <li><a href="donate.html">DONATE!!</a></li>
+        <li><a href="aboutus.html">About US</a></li>
+        <li><a href="parentingplace.html">The Parenting Place</a></li>
+      </ul>
+    </nav>
+  </div>
+    <div id="Fridge_Body">
+      <div id="Fridge_Top_Row">
+        <div id="Fridge_L" class="fridge-section">
+          <a href="appliances.html">
+            <img
+              src="/Images/Fridge_Inside_Left.png"
+              class="layer open-view"
+              alt="Appliances!"
+          /></a>
+          <img
+            src="/Images/FridgeLeftDoor.png"
+            class="layer closed-view"
+            alt="Left Door closed"
+          />
+        </div>
+
+        <div id="Fridge_R" class="fridge-section">
+          <a href="furniture.html">
+          <img
+            src="/Images/Fridge_Inside_Right.png"
+            class="layer open-view"
+            alt="Furniture!"
+          /></a>
+          <img
+            src="/Images/FridgeRightDoor.png"
+            class="layer closed-view"
+            alt="Right Door closed"
+          />
+        </div>
+      </div>
+
+      <div id="Fridge_Bottom" class="fridge-section">
+        <a href="donate.html"></a>
+        <img
+          src="/Images/Freezer_Inside.png"
+          class="layer open-view"
+          alt="Freezer open"
+        />
+        <img
+          src="/Images/FreezerDoor.png"
+          class="layer closed-view"
+          alt="Freezer Door closed"
+        />
+      </div>
+    </div>
   </body>
 </html>
